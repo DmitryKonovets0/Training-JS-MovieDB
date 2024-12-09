@@ -72,6 +72,9 @@ const personalMovieDB = {
     }
 };
 
+personalMovieDB.genres.forEach((item, i) => {
+    console.log(`Любимый жанр ${i + 1} - это ${item}`);
+});
 
 personalMovieDB.rememberMyFilms();
 personalMovieDB.detectPersonalLevel()
